@@ -1,0 +1,18 @@
+﻿namespace DPM225455_HuynhNhutPhat_Pattern01_AbstractFactory
+{
+    /// <summary>
+    /// The 'ConcreteFactory1' class
+    /// </summary>
+    class ConcreteFactory1 : AbstractFactory
+    {
+        public override AbstractProductA CreateProductA()
+        {
+            return new ProductA1();
+        }
+        public override AbstractProductB CreateProductB()
+        {
+            return new ProductB1();
+        }
+    }
+
+}
